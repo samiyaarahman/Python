@@ -1,0 +1,50 @@
+#list. (overall)
+
+subject= ["java","python","html","c++","c"]
+
+print ("python" in subject)
+
+print("css" not in subject)
+
+print("react"  in subject)
+
+print (subject +["react", 28, 90])  #For adding something new
+
+print (subject *2)      #For showing items twice
+
+subject= ["java","python","html","c++","c"]
+
+subject.insert (2, "toc")  # To insert item in certain place
+print (subject)
+
+subject.remove ("html") # To remove item
+print (subject)
+
+subject.sort()   #To organize items
+print (subject)
+
+subject.reverse()  #show items from back side
+print (subject)
+
+
+subject.append ("os")  #To add item
+print (subject)
+
+print(len(subject)) #To show the length
+
+subject.pop()    #delete item from top
+print (subject)
+
+subject.clear()  #clear the list
+print (subject)
+
+subject=[3,5,89,6,6,6,45,23]
+pos=subject.index(23)   # To show the index of specific item
+print (pos)
+
+subject2=subject.copy()
+print(subject2)
+
+count= subject.count(6)  #To count total number of a specific integer
+print (count)
+
