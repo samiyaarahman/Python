@@ -1,0 +1,38 @@
+#sum of Series
+
+n=int(input("Enter the last number :-"))
+print("\n Last number is : ",n)
+sum=0
+
+for x in range(1,n+1,1):
+     sum=sum+x
+     print("\n",x)
+print ("\nSum is : ",sum)
+
+
+
+
+#Even number series
+#2 + 4 + 6 + ........+n
+
+n=int(input("Enter the last number :-"))
+print("\n Last number is : ",n)
+sum=0
+
+for x in range(2,n+1,2):
+     sum=sum+x
+     print("\n",x)
+print ("\nSum is : ",sum)
+
+
+
+####or:-
+
+n=int(input("Enter the last number :-"))
+print("\n Last number is : ",n)
+sum=0
+num= range(2,n+1,2)
+for x in num :
+     sum=sum+x
+     print("\n",x)
+print ("\nSum is : ",sum)
